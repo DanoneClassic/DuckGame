@@ -3,7 +3,8 @@ import Dino from './Dino';
 import Obstacle from './Obstacle';
 import './../assets/css/Game.css';
 import jumpSound from '../assets/jump.mp3';
-import cloudImage from '../assets/images/cloud.svg'; // Импортируем SVG изображение облака
+import cloudImage from '../assets/images/cloud.svg';
+import CloudIcon from './cloud';
 
 const Game = ({ nickname, showMenu }) => {
     const [isJumping, setIsJumping] = useState(false);
@@ -121,9 +122,9 @@ const Game = ({ nickname, showMenu }) => {
         <div className="game-container">
             <div className="game">
                 <div className="clouds">
-                    <img src={cloudImage} className="cloud" alt="Cloud" />
-                    <img src={cloudImage} className="cloud" alt="Cloud" />
-                    <img src={cloudImage} className="cloud" alt="Cloud" />
+                    <CloudIcon className="cloud" alt="Cloud" />
+                    <CloudIcon className="cloud" alt="Cloud" />
+                    <CloudIcon className="cloud" alt="Cloud" />
                 </div>
                 <audio ref={audioRef} src={jumpSound} />
                 {isGameRunning && (
