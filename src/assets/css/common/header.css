@@ -1,0 +1,23 @@
+.App-header {
+    flex-shrink: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #282c34;
+    color: white;
+}
+.App-header h1 {
+    margin: 0;
+}
+
+.App-header button {
+    background: #61dafb;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.App-header button:hover {
+    background: #21a1f1;
+}

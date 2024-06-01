@@ -1,0 +1,54 @@
+.dino {
+    position: absolute;
+    bottom: 16px;
+    left: 150px;
+    width: 32px;
+    height: 32px;
+    background-image: url('../../images/Duck.png');
+    background-size: 64px 32px;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    animation: run 0.5s infinite steps(2), move 2.5s infinite linear;
+    transform: translateX(-100%);
+    transition: transform 0.4s ease-in-out, background-position 0.5s steps(2);
+    will-change: transform, background-position;
+}
+
+@keyframes run {
+    100% { background-position: -64px 0; }
+}
+
+@media (max-width: 600px) {
+    .dino {
+        left: 50px;
+    }
+}
+
+
+.dino:hover {
+    transform: scale(1.1);
+}
+
+
+.dino {
+    -webkit-animation: run 0.5s infinite steps(2), move 2.5s infinite linear;
+    -moz-animation: run 0.5s infinite steps(2), move 2.5s infinite linear;
+    -o-animation: run 0.5s infinite steps(2), move 2.5s infinite linear;
+    animation: run 0.5s infinite steps(2), move 2.5s infinite linear;
+
+    -webkit-transform: translateX(-100%);
+    -moz-transform: translateX(-100%);
+    -o-transform: translateX(-100%);
+    transform: translateX(-100%);
+
+    -webkit-transition: transform 0.4s ease-in-out, background-position 0.5s steps(2);
+    -moz-transition: transform 0.4s ease-in-out, background-position 0.5s steps(2);
+    -o-transition: transform 0.4s ease-in-out, background-position 0.5s steps(2);
+    transition: transform 0.4s ease-in-out, background-position 0.5s steps(2);
+}
+
+@media (max-width: 600px) {
+    .dino {
+        left: 50px;
+    }
+}

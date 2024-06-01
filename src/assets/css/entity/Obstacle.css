@@ -1,0 +1,31 @@
+.obstacle {
+    position: absolute;
+    bottom: 48px;
+}
+
+.obstacle1 {
+    width: 32px;
+    height: 32px;
+    background-image: url('../../images/Spikes.png');
+    background-size: 32px 32px;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+}
+
+.obstacle2 {
+    width: 50px;
+    height: 24px;
+    background-image: url('../../images/Pen.png');
+    background-size: 50px 24px;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+}
+
+.obstacle3 {
+    width: 46px;
+    height: 38px;
+    background-image: url('../../images/Mushroom2.png');
+    background-size: 32px 46px;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+}

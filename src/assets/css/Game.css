@@ -1,0 +1,27 @@
+.game-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.game {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    background:
+            url('../images/Ground.png') repeat-x bottom,
+            url('../images/Sky.png') repeat-x top;
+    overflow: hidden;
+    border: 1px solid #ddd;
+}
+
+/* Score styling */
+.score {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 18px;
+    color: #333;
+}

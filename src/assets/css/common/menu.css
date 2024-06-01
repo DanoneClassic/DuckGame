@@ -1,0 +1,53 @@
+.menu {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #2c2c2c;
+    padding: 20px;
+    border: 2px solid #444;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+    text-align: center;
+    z-index: 1000;
+    color: #fff;
+}
+
+.menu h2 {
+    margin-bottom: 20px;
+    color: #f1c40f;
+}
+
+.menu input {
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    background: #444;
+    border: 1px solid #555;
+    color: #fff;
+}
+
+.menu input::placeholder {
+    color: #aaa;
+}
+
+.menu button {
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    background: #f1c40f;
+    border: 1px solid #e2b607;
+    color: #2c2c2c;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.menu button:hover {
+    background: #d4a10d;
+}
+
+.menu button:focus {
+    outline: none;
+    box-shadow: 0 0 5px #f1c40f;
+}
