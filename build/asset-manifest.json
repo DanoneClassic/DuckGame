@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/DuckGame/static/css/main.f7d7e63d.css",
-    "main.js": "/DuckGame/static/js/main.c81f39cc.js",
+    "main.css": "/DuckGame/static/css/main.8e69c391.css",
+    "main.js": "/DuckGame/static/js/main.d6660fa3.js",
     "static/media/Mushroom2.png": "/DuckGame/static/media/Mushroom2.ac99719869e94d152ea1.png",
     "static/media/Pen.png": "/DuckGame/static/media/Pen.622f3409be1bc0d6340c.png",
     "static/media/jump.mp3": "/DuckGame/static/media/jump.363e49fa449fa7370a5f.mp3",
-    "static/media/cloud.svg": "/DuckGame/static/media/cloud.1701d31639b7cfeee89a47d30cb226c0.svg",
+    "static/media/cloud.svg": "/DuckGame/static/media/cloud.40f8749c5e89ff8f58074dc14dd2b509.svg",
     "index.html": "/DuckGame/index.html",
-    "main.f7d7e63d.css.map": "/DuckGame/static/css/main.f7d7e63d.css.map",
-    "main.c81f39cc.js.map": "/DuckGame/static/js/main.c81f39cc.js.map"
+    "main.8e69c391.css.map": "/DuckGame/static/css/main.8e69c391.css.map",
+    "main.d6660fa3.js.map": "/DuckGame/static/js/main.d6660fa3.js.map"
   },
   "entrypoints": [
-    "static/css/main.f7d7e63d.css",
-    "static/js/main.c81f39cc.js"
+    "static/css/main.8e69c391.css",
+    "static/js/main.d6660fa3.js"
   ]
 }

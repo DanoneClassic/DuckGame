@@ -3,7 +3,6 @@ import Dino from './Dino';
 import Obstacle from './Obstacle';
 import './../assets/css/Game.css';
 import jumpSound from '../assets/jump.mp3';
-import cloudImage from '../assets/images/cloud.svg';
 import CloudIcon from './cloud';
 
 const Game = ({ nickname, showMenu }) => {

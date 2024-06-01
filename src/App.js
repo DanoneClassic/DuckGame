@@ -40,7 +40,7 @@ function App() {
     return (
         <div className="App">
             <header className="App-header">
-                <h1>Dino Game</h1>
+                <h1>Duck Game</h1>
                 {!showMenu && !showStats && <button onClick={() => setShowMenu(true)}>Exit</button>}
             </header>
             <main>
