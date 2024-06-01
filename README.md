@@ -1,70 +1,64 @@
-# Getting Started with Create React App
+# Duck Game
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Duck Game je webová aplikace vytvořená pomocí moderních webových technologií. 
+Hra představuje běžícího dinosaura, který přeskakuje překážky. 
 
-## Available Scripts
+Tato hra je vytvořena v Reactu a lze ji ovládat pomocí mezerníku a šipky nahoru. 
+Pokud hrajete na mobilním telefonu, můžete dinosaura ovládat dotykem na obrazovku.
+Níže je přiložen kontrolní seznam splněných bodů zadání s krátkým vysvětlením.
 
-In the project directory, you can run:
 
-### `npm start`
+## Funkce a Požadavky
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Validita
+- **HTML5 Doctype**: Projekt používá platný HTML5 doctype.
+- **Kompatibilita s moderními prohlížeči**: Hra funguje v nejnovějších verzích prohlížečů Chrome, Firefox, Edge a Opera.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Semantické značky
+- **Semantické značky**: Správné použití semantických značek jako `<section>`, `<article>`, `<nav>` a `<aside>` je implementováno v celé struktuře HTML.
 
-### `npm test`
+### Grafika - SVG / Canvas
+- **Grafika**: Hra obsahuje SVG obrázky pro mraky a používá CSS pro animace.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Média - Audio/Video
+- **Média**: Hra obsahuje zvukové efekty pomocí prvku HTML5 `<audio>`. Přehrávání zvuku při skoku.
 
-### `npm run build`
+### Formulářové prvky
+- **Formulářové prvky**: Hra obsahuje pole pro zadání nickname.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Offline aplikace
+- **Offline schopnosti**: Aplikace je navržena tak, aby fungovala offline pomocí Service Workerů.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## CSS
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Pokročilé selektory
+- **Pokročilé selektory**: Využívá pokročilé pseudotřídy a kombinátory v CSS.
 
-### `npm run eject`
+### CSS3 transformace 2D/3D
+- **CSS3 2D/3D Transformace**: Používá CSS3 transformace pro animace a přechody.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### CSS3 transitions/animations
+- **CSS3 Animace**: Hra obsahuje hladké animace pro prvky jako duck.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Media queries
+- **Responzivní design**: Media queries zajišťují, že hra je responzivní a dobře funguje na mobilních zařízeních a jiných velikostech obrazovky.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Javascript
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### OOP přístup
+- **OOP Přístup**: Využívá prototypové dědičnosti pro GameObject.
 
-## Learn More
+### Použití JS frameworku či knihovny
+- **Použití JS frameworku či knihovny**: Postaveno pomocí Reactu, moderní knihovny JavaScriptu pro tvorbu uživatelských rozhraní.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Použití pokročilých JS API
+- **Použití pokročilých JS API**: Implementuje pokročilá API, jako je LocalStorage pro ukládání vysokých skóre a stavu hry.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Ovládání medií
+- **Ovládání medií**: Přehrávání zvuku při skoku.
 
-### Code Splitting
+### Offline aplikace
+- **Offline detekce**: Používá JavaScript API pro detekci offline stavu a jeho elegantní zpracování.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### JS práce se SVG
+- **JS a SVG**: Manipuluje s SVG a animacemi pomocí JavaScriptu Použití pro mraky.
